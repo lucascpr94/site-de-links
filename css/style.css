@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center; */
+    font-family: 'Poppins', sans-serif;
+    background: rgb(9,168,135);
+    background: -moz-radial-gradient(circle, rgba(9,168,135,1) 0%, rgba(5,133,102,1) 35%, rgba(0,97,69,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(9,168,135,1) 0%, rgba(5,133,102,1) 35%, rgba(0,97,69,1) 100%);
+    background: radial-gradient(circle, rgba(9,168,135,1) 0%, rgba(5,133,102,1) 35%, rgba(0,97,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#09a887",endColorstr="#006145",GradientType=1);
+}
+
+[principal-photo]{
+    width: 100px;
+    height: 100px;
+    border-radius: 99999px;
+
+}
+[link-share]{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: right;
+}
+[link-icons]{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    float: left;
+    top: 5px;
+    margin-right: 10px;
+}
+.image-profile {
+    position: relative;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.link-primary {
+    background: #4ab4ac;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 10px;
+    width: 50%;
+    -webkit-transition: 0.3s 0.2s ease-in;
+    -moz-transition: 0.3s 0.2s ease-in;
+    -o-transition: 0.3s 0.2s ease-in;
+    transition: 0.3s 0.2s ease-in;
+}
+.link-primary:hover{
+    background-color: aliceblue;
+}
+
+.link-primary a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #00000050;
+}
+.link-primary a:hover{
+    font-weight: bold;
+    color: #000000DD
+}
+
+@media (max-width: 480px) {
+    .link-primary {
+        width: 90%;
+        -webkit-transition: 0.2s 0.1s ease-in;
+        -moz-transition: 0.2s 0.1s ease-in;
+        -o-transition: 0.2s 0.1s ease-in;
+        transition: 0.2s 0.1s ease-in;
+    }
+  }
